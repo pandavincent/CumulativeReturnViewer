@@ -19,8 +19,6 @@ public class Controller {
 	
 	public static void main(String [] args) throws ParseException {
 		
-		// Future Improvement: Prompt user to input file name
-		
 		// Create an ArrayList of stocks
 		ArrayList<Stock> stockList = new ArrayList<Stock>();
 		
@@ -88,9 +86,9 @@ public class Controller {
 		// Prepare data according to user input 
 		String stockName = stockList.get(index).getTicker();
 		String startTime = stockList.get(index).getFrom();
-	    String endTime = stockList.get(index).getTo();
+	    	String endTime = stockList.get(index).getTo();
 	    
-	    // Create the specific stock's model
+	    	// Create the specific stock's model
 		Model model = new Model(stockName, startTime, endTime);
 		
 		ArrayList<Double> closeList = model.getCloseList();		
