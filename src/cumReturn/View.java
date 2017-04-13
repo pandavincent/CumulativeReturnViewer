@@ -60,7 +60,7 @@ public class View extends Application {
         XYChart.Series series = new XYChart.Series();
         series.setName("Cumulative Return");
         
-        // Future Improvement: add month value on graph (write month information to stockName.ini)
+        // Add data onto chart
         for (int i = 0; i < cumReturnList.size(); i++) {
         	series.getData().add(new XYChart.Data(""+i, cumReturnList.get(i)));
         }
