@@ -18,7 +18,7 @@ public class View extends Application {
 
     @Override public void start(Stage stage) {
     	
-        stage.setTitle("LA Capital");
+        stage.setTitle("Vincent Capital");
         String fileName = null;
         String stockName = null;
        
