@@ -1,6 +1,6 @@
 # CumulativeReturnViewer
-a Java program that visualize cumulative return graph of a given stock. 
-use Modal View Controller design. 
-data collection from Yahoo! Finance API. 
-data visulization using Java graphical library. 
+a Java program that visualize cumulative return graph of a given stock. <br />
+use Modal View Controller design. <br />
+data collection from Yahoo! Finance API. <br />
+data visulization using Java graphical library. <br /><br />
 ![Alt text](choose_stock.png?raw=true)
